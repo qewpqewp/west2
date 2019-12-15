@@ -1,0 +1,9 @@
+C:\Users\DELL\Documents\west2\RPG\bin\Debug\RPG.exe.config
+C:\Users\DELL\Documents\west2\RPG\bin\Debug\RPG.exe
+C:\Users\DELL\Documents\west2\RPG\bin\Debug\RPG.pdb
+C:\Users\DELL\Documents\west2\RPG\obj\Debug\RPG.csprojAssemblyReference.cache
+C:\Users\DELL\Documents\west2\RPG\obj\Debug\RPG.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\west2\RPG\obj\Debug\RPG.csproj.CopyComplete
+C:\Users\DELL\Documents\west2\RPG\obj\Debug\RPG.exe
+C:\Users\DELL\Documents\west2\RPG\obj\Debug\RPG.pdb
+C:\Users\DELL\Documents\west2\RPG\bin\Debug\LitJson.dll

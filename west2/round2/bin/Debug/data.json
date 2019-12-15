@@ -1,0 +1,167 @@
+{
+    "Equipment": [
+        {
+            "name": "贤者之帽",
+            "description": "一位贤者戴过的帽子",
+            "type": 0,
+            "atk": 0,
+            "def": 3
+        },
+        {
+            "name": "贤者胸甲",
+            "description": "同贤者帽",
+            "type": 1,
+            "atk": 1,
+            "def": 5
+        },
+        {
+            "name": "贤者之剑",
+            "description": "同贤者帽",
+            "type": 2,
+            "atk": 5,
+            "def": 0
+        },
+        {
+            "name": "库巴头颅",
+            "description": "踩着库巴头颅行进",
+            "type": 3,
+            "atk": 50,
+            "def": 10
+        }
+    ],
+    "Skill": [
+        {
+            "name": "唱",
+            "damage": 50,
+            "mana": 5
+        },
+        {
+            "name": "跳",
+            "damage": 100,
+            "mana": 20
+        },
+        {
+            "name": "rap",
+            "damage": 10,
+            "mana": 0
+        },
+        {
+            "name": "篮球",
+            "damage": 200,
+            "mana": 50
+        },
+        {
+            "name": "CTRL+M",
+            "damage": 500,
+            "mana": 10
+        },
+        {
+            "name": "喷火",
+            "damage": 10000,
+            "mana": 1000
+        },
+        {
+            "name": "撞击",
+            "damage": 5,
+            "mana": 1
+        },
+        {
+            "name": "吼叫",
+            "damage": 1,
+            "mana": 20
+        }
+    ],
+    "Monster": [
+        {
+            "name": "板栗",
+            "description": "长得像板栗",
+            "hp": 200,
+            "mana": 100,
+            "skill": [
+                1,
+	6
+            ],
+            "exp": 10,
+            "drop": [
+                {
+                    "type": "skill",
+                    "id": 2
+                },
+                {
+                    "type": "equipment",
+                    "id": 0
+                }
+            ]
+        },
+        {
+            "name": "慢慢龟",
+            "description": "走路很慢的乌龟",
+            "hp": 500,
+            "mana": 50,
+            "skill": [
+                1,
+                6
+            ],
+            "exp": 20,
+            "drop": [
+                {
+                    "type": "skill",
+                    "id": 3
+                },
+                {
+                    "type": "equipment",
+                    "id": 1
+                }
+            ]
+        },
+        {
+            "name": "快快龟",
+            "description": "走路很快的乌龟",
+            "hp": 800,
+            "mana": 100,
+            "skill": [
+                1,
+                6
+            ],
+            "exp": 80,
+            "drop": [
+                {
+                    "type": "skill",
+                    "id": 4
+                },
+                {
+                    "type": "equipment",
+                    "id": 2
+                }
+            ]
+        },
+        {
+            "name": "库巴",
+            "description": "BOSS",
+            "hp": 2000,
+            "mana": 2000,
+            "skill": [
+	1,
+	6,
+                5,
+                7
+            ],
+            "exp": 1000,
+            "drop": [
+                
+                {
+                    "type": "equipment",
+                    "id": 3
+                },
+                {
+                    "type": "skill",
+                    "id": 5
+                },
+                {
+                    "type": "skill",
+                    "id": 6
+                }
+            ]
+        }
+    ]
+}
